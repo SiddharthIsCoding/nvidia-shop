@@ -4,7 +4,7 @@ import Banner from './components/banner';
 import Category from './components/categorybox';
 import Productbox from './components/productbox';
 import Specials from './components/specials';
-import Footer from './footer';
+import Footer from './components/footer';
 
 
 function App() {
