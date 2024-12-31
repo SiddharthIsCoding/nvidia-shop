@@ -1,0 +1,34 @@
+
+#banner
+{
+    width: 96%;
+    height: 55vh;
+    border-radius: 10px;
+    background: linear-gradient(45deg , rgba(0, 128, 0, 0.552) , rgba(0, 128, 0, 0.081) ),url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/overview/shop-2080-ti-300@2x.jpg");
+    color: white;
+    text-align: left;
+    padding: 30px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center center;
+
+    margin-left: 2%;
+}
+
+#banner > h1
+{
+    font-size: 80px;
+}
+
+
+@media only screen and (max-width:640px)
+{
+    #banner
+    {
+        height: 35vh;
+    }
+    #banner > h1
+    {
+        font-size: 36px;
+    }
+}
