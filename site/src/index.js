@@ -4,10 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Adminlogin from "./pages/adminlogin";
+
+import {createBrowserRouter , RouterProvider } from "react-router-dom";
+
+const Router = createBrowserRouter([
+  {
+    path:"",
+    element: <App/>
+  },
+
+  {
+    path: "/adminlogin",
+    element: <Adminlogin/>
+  }
+])
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={Router} />
   </React.StrictMode>
 );
 

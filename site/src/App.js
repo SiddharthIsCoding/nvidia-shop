@@ -5,12 +5,17 @@ import Category from './components/categorybox';
 import Productbox from './components/productbox';
 import Specials from './components/specials';
 import Footer from './components/footer';
+import Adminlogin from './pages/adminlogin';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+
+
+
+
+      <Navbar/>
 
       <Banner headline="Special New Year Stock Online! Check before it runs out " ></Banner>
 
