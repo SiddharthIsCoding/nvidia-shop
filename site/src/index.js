@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Adminlogin from "./pages/adminlogin";
+import Adminpanelpage from "./pages/adminpanel";
 
 import {createBrowserRouter , RouterProvider } from "react-router-dom";
 
@@ -17,6 +18,11 @@ const Router = createBrowserRouter([
   {
     path: "/adminlogin",
     element: <Adminlogin/>
+  },
+
+  {
+    path:"/adminpanel",
+    element:<Adminpanelpage/>
   }
 ])
 
