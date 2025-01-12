@@ -1,7 +1,7 @@
 
 #loginformbox
 {
-    width:500px;
+    width:30%;
     height:400px;
     background:#1e1f22;
     margin-left:auto;
@@ -45,4 +45,27 @@
 #loginformbox > button:hover
 {
     background:#145e2f;
+}
+
+#loginpage > img
+{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+
+
+
+@media only screen and (max-width:700px)
+{
+    #loginformbox
+    {
+        width:80%;
+    }
+
+    #loginpage > img
+    {
+        display:none;
+    }
 }
